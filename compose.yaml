@@ -1,0 +1,1 @@
+# on mac use colima with vz engine and virtio fs. 1. brew install colima 2. colima start --editor 3. docker-compose up -d --watch
