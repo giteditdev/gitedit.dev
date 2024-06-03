@@ -3,6 +3,8 @@
 /// <reference lib="esnext" />
 /// <reference lib="webworker" />
 
-const sw = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self));
+const sw = /** @type {ServiceWorkerGlobalScope} */ (
+	/** @type {unknown} */ (self)
+)
 
-console.log('Hello from service worker!', sw);
+console.log("Hello from service worker!", sw)
