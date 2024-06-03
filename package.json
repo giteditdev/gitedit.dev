@@ -31,5 +31,9 @@
 		"typescript-eslint": "^8.0.0-alpha.20",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"prettier": {
+		"semi": false,
+		"useTabs": true
+	}
 }
